@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Form</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="header__logo"><img src="images/logo.png" alt="Лого"></a>
+                <nav class="header__nav">
+                    <a href="index.html" class="header__nav-link">Каталог</a>
+                    <a href="AboutUs.html" class="header__nav-link">О нас</a>
+                    <a href="form.html" class="header__nav-link">Форма заказа</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="form">
+            <div class="container">
+                <div class="form__inner">
+                    <form action="#" class="form">
+
+                        <div class="form__inner-block">
+                            <h3> Контактная информация</h3>
+                            <p>ФИО</p>
+                            <input type="text" placeholder="Введите ФИО" required>
+                            <p>Телефон</p>
+                            <input type="tel" placeholder="+7-xxx-xxx-xx-xx" >
+                            <p>Адрес доставки</p>
+                            <input type="text" placeholder="Введите адрес доставки">
+                        </div>
+                        <div class="form__inner-block">
+                            <h3>Дополнительные данные</h3>
+                            <p>Время получения</p>
+                            <input type="time" value="10:00">
+                            <p>Доставка</p>
+                            <label><input type="radio" name="delivery"> Курьером</label>
+                            <label><input type="radio" name="delivery"> Самовывоз</label>
+                        </div>
+                        <div class="form__inner-block">
+                            <h3>Доставка</h3>
+                            <p>Способ оплаты</p>
+                            <label><input type="radio" name="pay"> Оплата онлайн</label>
+                            <label><input type="radio" name="pay"> Оплата наличными курьеру</label>
+                            <label><input type="radio" name="pay"> Оплата картой курьеру</label>
+                        </div>
+
+                        <input class="form__submit-input" type="submit" value="Сделать заказ">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner-text">
+                    <p> Часы работы : 8.00 - 21.00</p>
+                    <p> Адрес: ул. Нахимова 13, ТЦ Лето </p>
+                    <p> Контактный телефон: + 7-923-333-77-77 </p>
+                </div>
+                <div class="footer__inner-logo">
+                    <img src="./images/logo.png" alt="#">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
